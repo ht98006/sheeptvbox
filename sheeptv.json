@@ -3,8 +3,7 @@
 "spider":"https://raw.githubusercontent.com/ht98006/TVBox/main/jar/xu230316.jar;md5;58e7dde0c3dcb6f2d42d58b7f237b5cd",
 "wallpaper": "https://www.dmoe.cc/random.php",
 // 直播
-"lives":
-[{"group":"redirect","channels":[{"name":"live","urls":["proxy://do=live&type=txt&ext=aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2h0OTgwMDYvc2hlZXB0dmJveC9tYWluL3R2L3NoZWVwbGl2ZS50eHQ="]}]}],
+"lives":[{"name":"太阳","type":0,"url":"aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2h0OTgwMDYvc2hlZXB0dmJveC9tYWluL3R2L3NoZWVwbGl2ZS50eHQ="}],
 // 站源
 "sites":
 [
