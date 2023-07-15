@@ -1,0 +1,4 @@
+git add .
+git commit -m "Update files"
+git pull origin main
+git push origin main
