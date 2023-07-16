@@ -1,12 +1,15 @@
 {
 // jar
-"spider":"https://raw.githubusercontent.com/ht98006/TVBox/main/jar/xu230316.jar;md5;58e7dde0c3dcb6f2d42d58b7f237b5cd",
+"spider": "https://raw.githubusercontent.com/ht98006/sheeptvbox/main/jar/custom_spider.jar",
+//"spider":"https://raw.githubusercontent.com/ht98006/TVBox/main/jar/xu230316.jar;md5;58e7dde0c3dcb6f2d42d58b7f237b5cd",
 "wallpaper": "https://www.dmoe.cc/random.php",
 // 直播
-"lives":[{"name":"太阳","type":0,"url":"aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2h0OTgwMDYvc2hlZXB0dmJveC9tYWluL3R2L3NoZWVwbGl2ZS50eHQ="}],
+"lives":[{"name":"綿羊自建立","type":0,"url":"aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL2h0OTgwMDYvc2hlZXB0dmJveC9tYWluL3R2L3NoZWVwbGl2ZS50eHQ="}],
 // 站源
 "sites":
 [
+{"key":"櫻花","name": "🐑櫻花","type": 3, "api": "csp_Ying","searchable": 1,"changeable": 1},
+{ "key": "JoyTV", "name": "🐑JoyTV", "type": 4, "api": "https://68.68smart.com/player_api.php?username=chen0922&password=dog0922&action=get_live_streams", "searchable": 1, "changeable": 1 },
 {"key":"7喜影院","name":"🐑7喜影院","type":3,"api":"https://raw.githubusercontent.com/ht98006/TVBox/main/libs/drpy2.js","searchable":2,"quickSearch":0,"filterable":0,"ext":"https://raw.githubusercontent.com/ht98006/TVBox/main/js/7%E5%96%9C%E5%BD%B1%E9%99%A2.js"},
 {"key":"櫻花動漫","name":"🐑櫻花動漫","type":3,"api":"https://raw.githubusercontent.com/ht98006/TVBox/main/libs/drpy2.js","searchable":2,"quickSearch":0,"filterable":0,"ext":"https://raw.githubusercontent.com/ht98006/TVBox/main/js/%E6%AB%BB%E8%8A%B1%E5%8B%95%E6%BC%AB.js"},
 {"key":"movieffm","name":"🐑movieffm","type":3,"api":"https://raw.githubusercontent.com/ht98006/TVBox/main/libs/drpy2.js","searchable":2,"quickSearch":0,"filterable":0,"ext":"https://raw.githubusercontent.com/ht98006/TVBox/main/js/movieffm.js"},
@@ -274,7 +277,50 @@
 {"category":4,"name":"mediacodec-handle-resolution-change","value":"1"},
 {"category":4,"name":"mediacodec-hevc","value":"1"},
 {"category":1,"name":"dns_cache_timeout","value":"600000000"}]}],
-
+  "doh": [
+    {
+      "name": "Google",
+      "url": "https://dns.google/dns-query",
+      "ips": [
+        "8.8.4.4",
+        "8.8.8.8"
+      ]
+    },
+    {
+      "name": "Cloudflare",
+      "url": "https://cloudflare-dns.com/dns-query",
+      "ips": [
+        "1.1.1.1",
+        "1.0.0.1",
+        "2606:4700:4700::1111",
+        "2606:4700:4700::1001"
+      ]
+    },
+    {
+      "name": "AdGuard",
+      "url": "https://dns.adguard.com/dns-query",
+      "ips": [
+        "94.140.14.140",
+        "94.140.14.141"
+      ]
+    },
+    {
+      "name": "DNSWatch",
+      "url": "https://resolver2.dns.watch/dns-query",
+      "ips": [
+        "84.200.69.80",
+        "84.200.70.40"
+      ]
+    },
+    {
+      "name": "Quad9",
+      "url": "https://dns.quad9.net/dns-quer",
+      "ips": [
+        "9.9.9.9",
+        "149.112.112.112"
+      ]
+    }
+  ],
 // 廣告屏蔽
 "ads":
 ["mimg.0c1q0l.cn",
