@@ -8,7 +8,10 @@
     "name":"豆瓣",
     "type":3,
     "api":"http://box.wmmys.cn/libs/drpy2.min.js",
-    "ext":"http://box.wmmys.cn/libs/drpy2.min.js/js/drpy.js",
+    "searchable": 0,
+    "quickSearch": 0,
+    "filterable": 0,
+    "ext":"http://box.wmmys.cn/libs/drpy2.min.js/js/drpy.js"
     },
     {
       "key": "Mtv",
