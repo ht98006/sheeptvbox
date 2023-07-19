@@ -1,5 +1,4 @@
 {
-"spider": "https://raw.githubusercontent.com/ht98006/sheeptvbox/main/jar/custom_spider.jar",
 "wallpaper": "https://img1.imgtp.com/2023/06/19/XyjVMyZN.jpg",
 "warningText": "公众号【王某某yes】",
   "sites": [
@@ -8,10 +7,10 @@
     "name":"豆瓣",
     "type":3,
     "api":"http://box.wmmys.cn/libs/drpy2.min.js",
+    "ext":"http://box.wmmys.cn/libs/drpy2.min.js/js/drpy.js",
     "searchable": 0,
     "quickSearch": 0,
-    "filterable": 0,
-    "ext":"http://box.wmmys.cn/libs/drpy2.min.js/js/drpy.js"
+    "filterable": 0
     },
     {
       "key": "Mtv",
@@ -1397,6 +1396,7 @@
       ]
     }
   ],
+       "spider": "https://zd.wmmys.cn/tvbox/公众号王某某yes/wmm.jar;md5;5a9029b7c90ad4ba28bab2684adad8dc",
   "ads": [
     "mimg.0c1q0l.cn",
     "www.googletagmanager.com",
