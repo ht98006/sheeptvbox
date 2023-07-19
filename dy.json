@@ -1396,7 +1396,7 @@
       ]
     }
   ],
-       "spider": "https://zd.wmmys.cn/tvbox/公众号王某某yes/wmm.jar;md5;5a9029b7c90ad4ba28bab2684adad8dc",
+       "spider": "https://zd.wmmys.cn/tvbox/公众号王某某yes/wmm.jar,https://raw.githubusercontent.com/ht98006/sheeptvbox/main/jar/custom_spider.jar;md5;5a9029b7c90ad4ba28bab2684adad8dc",
   "ads": [
     "mimg.0c1q0l.cn",
     "www.googletagmanager.com",
